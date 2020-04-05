@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10A4889DF0881B9C62CF1997 /* Pods_InTune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D33823D322CE07BEECDAC0 /* Pods_InTune.framework */; };
+		76231B4E2430BDC800EA4F80 /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76231B4D2430BDC800EA4F80 /* MusicDetailViewController.swift */; };
+		7666BE252439C23B00791465 /* 2home.png in Resources */ = {isa = PBXBuildFile; fileRef = 7666BE212439C23A00791465 /* 2home.png */; };
+		7666BE262439C23B00791465 /* 3Adele.png in Resources */ = {isa = PBXBuildFile; fileRef = 7666BE222439C23A00791465 /* 3Adele.png */; };
+		7666BE272439C23B00791465 /* 4Akashlal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7666BE232439C23A00791465 /* 4Akashlal.png */; };
+		7666BE282439C23B00791465 /* 1launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = 7666BE242439C23B00791465 /* 1launcher.png */; };
+		76967A68242FAB3C0094F8FD /* MusicItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76967A67242FAB3C0094F8FD /* MusicItemView.swift */; };
+		76967A6D242FBF970094F8FD /* InTuneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76967A6C242FBF970094F8FD /* InTuneModel.swift */; };
+		76F8C1B4243108B100F71897 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F8C1B3243108B100F71897 /* Box.swift */; };
+		76F9D0F7242F4E2500748650 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D0F6242F4E2500748650 /* AppDelegate.swift */; };
+		76F9D0F9242F4E2500748650 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D0F8242F4E2500748650 /* SceneDelegate.swift */; };
+		76F9D0FB242F4E2500748650 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D0FA242F4E2500748650 /* MusicViewController.swift */; };
+		76F9D0FE242F4E2500748650 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F9D0FC242F4E2500748650 /* Main.storyboard */; };
+		76F9D100242F4E2800748650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F9D0FF242F4E2800748650 /* Assets.xcassets */; };
+		76F9D103242F4E2800748650 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76F9D101242F4E2800748650 /* LaunchScreen.storyboard */; };
+		76F9D110242F53B600748650 /* InTuneNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D10F242F53B600748650 /* InTuneNetworkManager.swift */; };
+		76F9D115242F57CA00748650 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D114242F57CA00748650 /* SearchRequest.swift */; };
+		76F9D117242F584100748650 /* SearchResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9D116242F584100748650 /* SearchResultModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25C0409FC28C649506BCEE15 /* Pods-InTune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InTune.release.xcconfig"; path = "Target Support Files/Pods-InTune/Pods-InTune.release.xcconfig"; sourceTree = "<group>"; };
+		75D33823D322CE07BEECDAC0 /* Pods_InTune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InTune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76231B4D2430BDC800EA4F80 /* MusicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
+		7666BE212439C23A00791465 /* 2home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2home.png; sourceTree = "<group>"; };
+		7666BE222439C23A00791465 /* 3Adele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3Adele.png; sourceTree = "<group>"; };
+		7666BE232439C23A00791465 /* 4Akashlal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4Akashlal.png; sourceTree = "<group>"; };
+		7666BE242439C23B00791465 /* 1launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1launcher.png; sourceTree = "<group>"; };
+		76967A67242FAB3C0094F8FD /* MusicItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicItemView.swift; sourceTree = "<group>"; };
+		76967A6C242FBF970094F8FD /* InTuneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTuneModel.swift; sourceTree = "<group>"; };
+		76F8C1B3243108B100F71897 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
+		76F9D0F3242F4E2500748650 /* InTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F9D0F6242F4E2500748650 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		76F9D0F8242F4E2500748650 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		76F9D0FA242F4E2500748650 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		76F9D0FD242F4E2500748650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76F9D0FF242F4E2800748650 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76F9D102242F4E2800748650 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76F9D104242F4E2800748650 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76F9D10F242F53B600748650 /* InTuneNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTuneNetworkManager.swift; sourceTree = "<group>"; };
+		76F9D114242F57CA00748650 /* SearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		76F9D116242F584100748650 /* SearchResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultModel.swift; sourceTree = "<group>"; };
+		8FFE44BE4F71BE21106BF89F /* Pods-InTune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InTune.debug.xcconfig"; path = "Target Support Files/Pods-InTune/Pods-InTune.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F9D0F0242F4E2500748650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A4889DF0881B9C62CF1997 /* Pods_InTune.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		442BFD16D07E9A6A315C702D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FFE44BE4F71BE21106BF89F /* Pods-InTune.debug.xcconfig */,
+				25C0409FC28C649506BCEE15 /* Pods-InTune.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7666BE202439C22200791465 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				7666BE242439C23B00791465 /* 1launcher.png */,
+				7666BE212439C23A00791465 /* 2home.png */,
+				7666BE222439C23A00791465 /* 3Adele.png */,
+				7666BE232439C23A00791465 /* 4Akashlal.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		76F8C1B22431089A00F71897 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				76F8C1B3243108B100F71897 /* Box.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		76F9D0EA242F4E2500748650 = {
+			isa = PBXGroup;
+			children = (
+				76F9D0F5242F4E2500748650 /* InTune */,
+				76F9D0F4242F4E2500748650 /* Products */,
+				442BFD16D07E9A6A315C702D /* Pods */,
+				A9DC6670EBD21ADD601A17AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76F9D0F4242F4E2500748650 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76F9D0F3242F4E2500748650 /* InTune.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76F9D0F5242F4E2500748650 /* InTune */ = {
+			isa = PBXGroup;
+			children = (
+				76F9D0F6242F4E2500748650 /* AppDelegate.swift */,
+				76F9D0F8242F4E2500748650 /* SceneDelegate.swift */,
+				76F9D10C242F535000748650 /* Models */,
+				76F9D10D242F535A00748650 /* Views */,
+				76F9D10A242F513E00748650 /* ViewControllers */,
+				76F9D10E242F537300748650 /* Network */,
+				76F8C1B22431089A00F71897 /* Utilities */,
+				76F9D10B242F515100748650 /* Resources */,
+				7666BE202439C22200791465 /* Screenshots */,
+				76F9D0FF242F4E2800748650 /* Assets.xcassets */,
+				76F9D104242F4E2800748650 /* Info.plist */,
+			);
+			path = InTune;
+			sourceTree = "<group>";
+		};
+		76F9D10A242F513E00748650 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				76F9D0FA242F4E2500748650 /* MusicViewController.swift */,
+				76231B4D2430BDC800EA4F80 /* MusicDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		76F9D10B242F515100748650 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76F9D101242F4E2800748650 /* LaunchScreen.storyboard */,
+				76F9D0FC242F4E2500748650 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		76F9D10C242F535000748650 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				76F9D116242F584100748650 /* SearchResultModel.swift */,
+				76967A6C242FBF970094F8FD /* InTuneModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		76F9D10D242F535A00748650 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76967A67242FAB3C0094F8FD /* MusicItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76F9D10E242F537300748650 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				76F9D10F242F53B600748650 /* InTuneNetworkManager.swift */,
+				76F9D114242F57CA00748650 /* SearchRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A9DC6670EBD21ADD601A17AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D33823D322CE07BEECDAC0 /* Pods_InTune.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76F9D0F2242F4E2500748650 /* InTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F9D107242F4E2800748650 /* Build configuration list for PBXNativeTarget "InTune" */;
+			buildPhases = (
+				FFF1BF57153A1C4D48B4C24D /* [CP] Check Pods Manifest.lock */,
+				76F9D0EF242F4E2500748650 /* Sources */,
+				76F9D0F0242F4E2500748650 /* Frameworks */,
+				76F9D0F1242F4E2500748650 /* Resources */,
+				503A57CE58199F4540BA2580 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InTune;
+			productName = InTune;
+			productReference = 76F9D0F3242F4E2500748650 /* InTune.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76F9D0EB242F4E2500748650 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = AkOS;
+				TargetAttributes = {
+					76F9D0F2242F4E2500748650 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 76F9D0EE242F4E2500748650 /* Build configuration list for PBXProject "InTune" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76F9D0EA242F4E2500748650;
+			productRefGroup = 76F9D0F4242F4E2500748650 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76F9D0F2242F4E2500748650 /* InTune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76F9D0F1242F4E2500748650 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7666BE282439C23B00791465 /* 1launcher.png in Resources */,
+				76F9D103242F4E2800748650 /* LaunchScreen.storyboard in Resources */,
+				7666BE272439C23B00791465 /* 4Akashlal.png in Resources */,
+				7666BE262439C23B00791465 /* 3Adele.png in Resources */,
+				76F9D100242F4E2800748650 /* Assets.xcassets in Resources */,
+				76F9D0FE242F4E2500748650 /* Main.storyboard in Resources */,
+				7666BE252439C23B00791465 /* 2home.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		503A57CE58199F4540BA2580 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InTune/Pods-InTune-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InTune/Pods-InTune-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InTune/Pods-InTune-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFF1BF57153A1C4D48B4C24D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InTune-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76F9D0EF242F4E2500748650 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76967A6D242FBF970094F8FD /* InTuneModel.swift in Sources */,
+				76F9D0FB242F4E2500748650 /* MusicViewController.swift in Sources */,
+				76F9D110242F53B600748650 /* InTuneNetworkManager.swift in Sources */,
+				76F9D0F7242F4E2500748650 /* AppDelegate.swift in Sources */,
+				76F9D115242F57CA00748650 /* SearchRequest.swift in Sources */,
+				76F9D0F9242F4E2500748650 /* SceneDelegate.swift in Sources */,
+				76231B4E2430BDC800EA4F80 /* MusicDetailViewController.swift in Sources */,
+				76967A68242FAB3C0094F8FD /* MusicItemView.swift in Sources */,
+				76F9D117242F584100748650 /* SearchResultModel.swift in Sources */,
+				76F8C1B4243108B100F71897 /* Box.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		76F9D0FC242F4E2500748650 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F9D0FD242F4E2500748650 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76F9D101242F4E2800748650 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76F9D102242F4E2800748650 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76F9D105242F4E2800748650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		76F9D106242F4E2800748650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76F9D108242F4E2800748650 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FFE44BE4F71BE21106BF89F /* Pods-InTune.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InTune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akashlal.InTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76F9D109242F4E2800748650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C0409FC28C649506BCEE15 /* Pods-InTune.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InTune/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.akashlal.InTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76F9D0EE242F4E2500748650 /* Build configuration list for PBXProject "InTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F9D105242F4E2800748650 /* Debug */,
+				76F9D106242F4E2800748650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F9D107242F4E2800748650 /* Build configuration list for PBXNativeTarget "InTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76F9D108242F4E2800748650 /* Debug */,
+				76F9D109242F4E2800748650 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76F9D0EB242F4E2500748650 /* Project object */;
+}
